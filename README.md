@@ -1,4 +1,6 @@
 # rxlist
+[![](https://jitpack.io/v/s0nerik/rxlist.svg)](https://jitpack.io/#s0nerik/rxlist)
+
 Reactive List implementation using RxJava.
 
 `java.util.List` implementation that can notify of the events that happened with the list using Observable.
