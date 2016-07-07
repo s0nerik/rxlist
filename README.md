@@ -9,7 +9,7 @@ You can use an `RxList` either as a wrapper around any other `java.util.List` im
 (in this case an `ArrayList` will be used as an implementation for a backing list).
 Also it's possible to enable the "item removed" notification for each item that was removed when the list gets cleared (disabled by default).
 
-```
+```java
 // ArrayList will be used as a backing list implementation.
 RxList<Item> items = new RxList<>();
 
@@ -28,7 +28,7 @@ RxList<Item> items = new RxList<>(wrappedItems, true);
 
 After you've created the `RxList` instance you will be able to get notified of the events that happen with it.
 Use the `events()` method of the `RxList` to get the Observable of the `RxList`'s events:
-```
+```java
 RxList<Item> items = new RxList<>();
 items.events().subscribe(event -> System.out.println(event.type))
 ```
@@ -43,7 +43,7 @@ the changes in a list be shown to the user. Take a look at the
 
 ### Installation
 - To use this library, add the following to your project level `build.gradle`:
-```
+```gradle
 allprojects {
     repositories {
         maven { url "https://jitpack.io" }
@@ -51,7 +51,7 @@ allprojects {
 }
 ```
 - Add this to your app's `build.gradle`:
-```
+```gradle
 compile 'com.github.s0nerik:rxlist:{latest version}'
 ```
 
