@@ -1,5 +1,6 @@
 # rxlist
 [![](https://jitpack.io/v/s0nerik/rxlist.svg)](https://jitpack.io/#s0nerik/rxlist)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-rxlist-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3865)
 
 Reactive List implementation using RxJava.
 
